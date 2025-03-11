@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+
+#navbar{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+#navbar a{
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: CadetBlue;
+  display: block;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: black;
+}
+#navbar a:last-child{
+  border-width: 1px 0px 2px 0px;
+}
+#navbar a:first-of-type{
+  border-width: 2px 0px 1px 0px;
+}
+
+#navbar a:hover{
+  color: DarkSlateGray;
+}
+
+#main-doc{
+  padding: 60px 30px 30px 160px
+
+}
+
+header{
+  font-size: 35px;
+}
+
+.subtext{
+    color: grey;
+    font-size: 12px
+  }
+
+.fake-link{
+  color: #0a93d6
+}
+.fake-link:hover{
+  text-decoration: underline;
+}
+
+pre{
+  line-height: 0.5;
+}
+
+.fake-blockquote{
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  border-color: grey;
+  padding-left: 10px
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 100px;
+  }
+  #main-doc{
+    padding: 60px 30px 30px 100px
+  }
+
+}

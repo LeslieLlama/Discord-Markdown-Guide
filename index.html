@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Text Flair in Discord</header>
+      <h3>A Manual by Leslie Llama</h3>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Bold_Italics">Bold Italics</a>
+      <a class="nav-link" href="#Underlining">Underlining</a>
+      <a class="nav-link" href="#Code_Blocks">Code Blocks</a>
+      <a class="nav-link" href="#Text_Size">Text Size</a>
+      <a class="nav-link" href="#Masked_Links">Masked Links</a>
+      <a class="nav-link" href="#Lists">Lists</a>
+      <a class="nav-link" href="#Block_Quotes">Block Quotes</a>
+      <a class="nav-link" href="#Overview">Overview</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Markdown, or as i've called it here "text flair" is a way to modify types text within the chat program Discord, in a simmilar manner to html markdown tags. Unfortunatly they use different symbols and tags to achive the same result, ideally this guide, <a href="https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline">and their offical documentaiton</a>, should help clairfy how to achive clear and fun text formatting within the program.<p>
+      </section>
+      <section class="main-section" id="Bold_Italics">
+        <header>Bold Italics</header>
+        <p>To enable the use of italicised text in discord, you contain the message with an asterisk on each side, the character <code>*</code>, *like so*. When your message is sent, it will appear <i>like this.</i> </p>
+        <p>Bolded text is simmilar, both in execution and character used. Contain your message within TWO asterisks <code>**</code>, **like so**. The sent message will appear <b>like this.</b></p>
+        <p>You can combine both bold and italics by using three asterisks (***text***), which will make the message appear <b><i>like this</b></i></p>
+      </section>
+      <section class="main-section" id="Underlining">
+        <header class="Underlining" >Underlining</header>
+        <p>To underline text in discord, contain the message within two underscores on each side <code>__like this__</code>, which will make your message appear <u>like this.</u></p>
+      </section>
+      <section class="main-section" id="Code_Blocks">
+        <header class="Code_Blocks">Code Blocks</header>
+        <p>You can write text in a code block format by wrapping it in back ticks. <code>`like this.`</code> It's useful for when you'd like text to be copied exactly, or to present pseudocode in an easier to read format. You can also make multi-line code blocks by adding three back-ticks, (```text```) which will present the text<br>
+        <code>like<br>
+        this<br>
+        so to speak</code><br>
+        assuming that theres a new line wherever you want text breaks.
+        </p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </section>
+      <section class="main-section" id="Text_Size">
+        <header class="Text_Size">Text Size</header>
+        <p>Text size can be altered with the pound key and a space before the text <code>(# text)</code>. This makes it appear like larger and bolded, simmilar to the numbered h tags for headers in html. You can have three different sizes of headers, all acsess by adding more pound keys, size illustrated below<br>
+        </p>
+        <h2>Big (# text)</h2>
+        <h3>Medium Big (## text)</h3>
+        <h4>Small Big (### text)</h4>
+        <p>Something that's important to note is because these are treated like headers, they must be at the start of a new line, and cannot be blended into text. Subtext also follows this rule.</p>
+        <p>Subtext is making text smaller than the standard text size within discord, and is activated by prefacing the text with the minus key combined with a pound, like so <code>(-#text)</code>. This will have the effect of making the text appear smaller and in a grey font on dark mode, like below. <div class="subtext">small (-# text)</div></p>
+      </section>
+      <section class="main-section" id="Masked_Links">
+        <header class="Masked_Links">Masked Links</header>
+        <p>A fancy way to display links is by embedding them within text akin to the a tag in html. you can do this by encircling the text you want to embed the link into with square brackets, and encircling the link within round brackets adjacent to the round brackets. <code>[like so](link_text)</code>.</p>
+        <p>
+          This will change the colour of the text to blue, and give it an underline when moused over, clicking the text will open the link in the users browser of choice.
+        </p>
+        <p class="fake-link">It looks like this</p>
+      </section>
+      <section class="main-section" id="Lists">
+        <header class = "Lists">Lists</header>
+        <p>A feature you may have unintentionally used before is bulleted lists, uniquely they're made with a choice of two characters, backdash <code>-</code> and aesterisk <code>*</code>. I'd reccomend using backdash, as aesterisks are already used for bolding and italicising text. They're created by prefacing the text with backdash or aesterisk and a space, like so: <code>(- text)</code>. You'll want to do this for each item in the list on a new line.</p>
+        <code>
+          - Will<br>
+          - Appear<br>
+          - Like<br>
+          - This<br>
+        </code>
+
+        <ul>
+          <li>Will</li>
+          <li>Appear</li>
+          <li>Like</li>
+          <li>This</li>
+        </ul>
+        <p>Lists can also be indented to create sub-lists, this is done by prefacing the text with two spaces before aesterisk or backdash <code>(  - text)</code> and must be done inside an already existing list</p>
+        <code>
+          <pre>- Will</pre>
+          <pre>  - Appear</pre>
+          <pre>  - Like</pre>
+          <pre>  - This</pre>
+        </code>
+
+        <ul>
+          <li>Will</li>
+          <ul>
+            <li>Appear</li>
+            <li>Like</li>
+            <li>This</li>
+          </ul>
+        </ul>
+      </section>
+      <section class="main-section" id="Block_Quotes">
+        <header class="Block_Quotes">Block Quotes</header>
+        <p>To make a block of text easily copied, or to properly notate a large quote, you can use the blockquote to add extra padding to the left of a sentence. It's done with the greater than sign, <code>></code>, and a space prefacing the text <code>(> text)</code></p>
+        <p class="fake-blockquote"> Which will render the text like so</p>
+        <p> You can also do a multi-line block quote if new lines are important to the block of text. This is done by prefacing the text with three greater than signs <code>(>>> text)</code></p>
+        <p class="fake-blockquote"> Which will <br>render the text <br>like so</p>
+
+      </section>
+      <section class="main-section" id="Overview">
+        <header class="Overview">Overview</header>
+        <ul>
+          <li><i>Italicized</i> <code>(*text*)</code></li>
+          <li><b>Bolded</b> <code>(**text**)</code></li>
+          <li><b><i>Bolded Italics</i></b> <code>(***text***)</code></li>
+          <li><u>Underline</u> <code>(__text__)</code></li>
+          <li><code>Code (`text`)</code></li>
+          <li><h2>Header<code>(# text)</code></h2></li>
+          <li><h3>Header<code>(## text)</code></h3></li>
+          <li><h4>Header<code>(### text)</code></h4></li>
+          <li><tag class="subtext">Subtext<tag> <code>(-# text)</code></li>
+          <li><tag class="fake-link">Masked Link</tag> | <code>[text](link_text)</code></li>
+        </ul>
+        <div> Lists</div>
+          <ul>
+            <li>List item <code>(- text)</code></li>
+            <li>List item <code>(* text)</code></li>
+            <ul>
+              <li>List item <code>(  - text)</code></li>
+              <li>List item <code>(  * text)</code></li>
+            </ul>
+            <br>
+            <li><tag class="fake-blockquote">Block Quote</tag> <code>(> text)</code></li>
+            <li><p class="fake-blockquote">Multi<br> Line<br> Block<br> Quote <code>(>>> text)</code></p> </li>
+          </ul>
+          <p>Thank you for reading this guide, I hope this was helpful.</p>
+      </section>
+    </main>
+  </body>
+</html>
