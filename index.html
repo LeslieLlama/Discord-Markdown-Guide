@@ -62,7 +62,7 @@
         <header class="Masked_Links">Masked Links</header>
         <p>A fancy way to display links is by embedding them within text akin to the a tag in html. you can do this by encircling the text you want to embed the link into with square brackets, and encircling the link within round brackets adjacent to the round brackets. <code>[like so](link_text)</code>.</p>
         <p>
-          This will change the colour of the text to blue, and give it an underline when moused over, clicking the text will open the link in the users browser of choice.
+          This will change the colour of the text to blue, and give it an underline when moused over, clicking the text will open the link in the users browser of choice. 
         </p>
         <p class="fake-link">It looks like this</p>
       </section>
@@ -98,6 +98,13 @@
             <li>This</li>
           </ul>
         </ul>
+        <p>Lists can also be made with numbers. This is done by typing the number, a full stop, then the list item. This changes the font of the numbers to have serifs. <code>(#. text)</code>. The text then</p>
+        <ol>
+          <li>Will</li>
+          <li>Appear</li>
+          <li>Like</li>
+          <li>This</li>
+        </ol>
       </section>
       <section class="main-section" id="Block_Quotes">
         <header class="Block_Quotes">Block Quotes</header>
@@ -105,7 +112,7 @@
         <p class="fake-blockquote"> Which will render the text like so</p>
         <p> You can also do a multi-line block quote if new lines are important to the block of text. This is done by prefacing the text with three greater than signs <code>(>>> text)</code></p>
         <p class="fake-blockquote"> Which will <br>render the text <br>like so</p>
-
+        
       </section>
       <section class="main-section" id="Overview">
         <header class="Overview">Overview</header>
@@ -120,7 +127,9 @@
           <li><h4>Header<code>(### text)</code></h4></li>
           <li><tag class="subtext">Subtext<tag> <code>(-# text)</code></li>
           <li><tag class="fake-link">Masked Link</tag> | <code>[text](link_text)</code></li>
-        </ul>
+          <li><tag class="fake-blockquote">Block Quote</tag> <code>(> text)</code></li>
+          <li><p class="fake-blockquote">Multi<br> Line<br> Block<br> Quote <code>(>>> text)</code></p></li>
+        </ul> 
         <div> Lists</div>
           <ul>
             <li>List item <code>(- text)</code></li>
@@ -129,10 +138,13 @@
               <li>List item <code>(  - text)</code></li>
               <li>List item <code>(  * text)</code></li>
             </ul>
-            <br>
-            <li><tag class="fake-blockquote">Block Quote</tag> <code>(> text)</code></li>
-            <li><p class="fake-blockquote">Multi<br> Line<br> Block<br> Quote <code>(>>> text)</code></p> </li>
+            
           </ul>
+          <ol>
+              <li>List item <code>(1. text)</code></li>
+              <li>List item <code>(2. text)</code></li>
+          </ol>
+
           <p>Thank you for reading this guide, I hope this was helpful.</p>
       </section>
     </main>
